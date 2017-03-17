@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<configuration date="2013/12/14" author="e.World Technology Ltd.">
+<project id="{937344FC-3B74-427F-9738-CFBC1495AE28}" file="E:\xampp\htdocs\aplikasi\FutsalGold.pmp" name="Futsal" product="PHPMaker" version="10.0" datetime="2013/12/14 20:16:29" languagefolder="phplang" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,15">
+<table id="_2padmin" name="2padmin" caption="Admin" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,0" priv="1"/>
+<table id="_2pbackup" name="2pbackup" caption="Backup" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,0" priv="1"/>
+<table id="daftar_lapangan" name="daftar lapangan" caption="Daftar Lapangan" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,111" priv="1"/>
+<table id="daftar_pelanggan" name="daftar pelanggan" caption="Daftar Pelanggan" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,111" priv="1"/>
+<table id="lic" name="lic" caption="Lisensi" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,111" priv="1"/>
+<table id="persewaan_lapangan_2D_detail" name="persewaan lapangan - detail" caption="Sewa Lapangan" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,111" priv="1"/>
+<table id="persewaan_lapangan_2D_master" name="persewaan lapangan - master" caption="Transaksi Persewaan Lapangan" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,111" priv="1"/>
+<table id="profile" name="profile" caption="Profil" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,0" priv="1"/>
+<table id="daftar_produk" name="daftar produk" caption="Daftar Produk" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,111" priv="1"/>
+<table id="daftar_satuan" name="daftar satuan" caption="Daftar Satuan" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,111" priv="1"/>
+<table id="daftar_suplier" name="daftar suplier" caption="Daftar Supplier" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,111" priv="1"/>
+<table id="pembelian_2D_detail" name="pembelian - detail" caption="Pembelian Detail" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,111" priv="1"/>
+<table id="pembelian_2D_master" name="pembelian - master" caption="Pembelian Kantin" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,111" priv="1"/>
+<table id="penjualan_2D_detail" name="penjualan - detail" caption="Penjualan Detail" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,111" priv="1"/>
+<table id="penjualan_2D_master" name="penjualan - master" caption="Penjualan Kantin" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,111" priv="1"/>
+<table id="Booking" name="Booking" caption="Daftar Booking Lapangan" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,111" priv="1"/>
+<table id="Rekapitulasi_Persewaan" name="Rekapitulasi Persewaan" caption="Rekapitulasi Persewaan" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,0" priv="1"/>
+<table id="Sisa_Stok" name="Sisa Stok" caption="Sisa Stok" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,0" priv="1"/>
+<table id="Sisa_Bayar" name="Sisa Bayar" caption="Transaksi Belum Lunas" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,0" priv="1"/>
+<table id="Rekapitulasi_Penjualan" name="Rekapitulasi Penjualan" caption="Rekapitulasi Penjualan" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,0" priv="1"/>
+<table id="Rekapitulasi_Pembelian" name="Rekapitulasi Pembelian" caption="Rekapitulasi Pembelian" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,0" priv="1"/>
+<table id="Penjualan_Belum_Lunas" name="Penjualan Belum Lunas" caption="Penjualan Belum Lunas" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,0" priv="1"/>
+<table id="Pembelian_Belum_Lunas" name="Pembelian Belum Lunas" caption="Pembelian Belum Lunas" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,0" priv="1"/>
+<table id="Laporan_Daftar_Pelanggan" name="Laporan Daftar Pelanggan" caption="Laporan Daftar Pelanggan" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,0" priv="1"/>
+<table id="Laporan_Daftar_Lapangan" name="Laporan Daftar Lapangan" caption="Laporan Daftar Lapangan" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,0" priv="1"/>
+<table id="lapstok" name="lapstok" caption="Laporan Stok" userlevel="0,&quot;Default&quot;,0;1,&quot;Operator&quot;,0" priv="1"/>
+</project></configuration>

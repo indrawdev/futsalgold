@@ -1,0 +1,1359 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<ew-language date="2014/1/1" version="10.0.1" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+	<locale>
+		<phrase id="locale" value=""/><!-- *** system locale for this language -->
+		<phrase id="use_system_locale" value="1"/><!-- *** change to "0" to disable system locale and use the following settings *** -->
+		<phrase id="decimal_point" value="."/>
+		<phrase id="thousands_sep" value=","/>
+		<phrase id="mon_decimal_point" value="."/>
+		<phrase id="mon_thousands_sep" value=","/>
+		<phrase id="currency_symbol" value="$"/>
+		<phrase id="positive_sign" value=""/>
+		<phrase id="negative_sign" value="-"/>
+		<phrase id="frac_digits" value="2"/>
+		<phrase id="p_cs_precedes" value="1"/>
+		<phrase id="p_sep_by_space" value="0"/>
+		<phrase id="n_cs_precedes" value="1"/>
+		<phrase id="n_sep_by_space" value="0"/>
+		<phrase id="p_sign_posn" value="3"/>
+		<phrase id="n_sign_posn" value="3"/>
+		<phrase id="time_zone" value="US/Pacific"/><!-- *** used for multi-language site only *** -->
+	</locale>
+	<global>
+		<phrase id="actiondeleted" value="Deleted"/>
+		<phrase id="actioninserted" value="Inserted"/>
+		<phrase id="actioninsertedgridadd" value="Inserted (Grid-Add)"/>
+		<phrase id="actionupdated" value="Updated"/>
+		<phrase id="actionupdatedgridedit" value="Updated (Grid-Edit)"/>
+		<phrase id="actionupdatedmultiupdate" value="Updated (Multi-Update)"/>
+		<phrase id="activateaccount" value="Your account is activated"/>
+		<phrase id="activatefailed" value="Activation failed"/>
+		<phrase id="add" value="Add"/>
+		<phrase id="addblankrow" value="Add Blank Row" imageurl="phpimages/addblankrow.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="addbtn" value="Add"/>
+		<phrase id="addlink" value="Add"/>
+		<phrase id="addmasterdetaillink" value="Add Master/Detail"/>
+		<phrase id="addsuccess" value="Add succeeded"/>
+		<phrase id="advancedsearch" value="Advanced Search"/>
+		<phrase id="allrecords" value="All"/>
+		<phrase id="allword" value="All words"/>
+		<phrase id="alwaysask" value="Always ask for my user name and password"/>
+		<phrase id="anyword" value="Any word"/>
+		<phrase id="audittrailautologin" value="autologin"/>
+		<phrase id="audittrailfailedattempt" value="failed attempt: %n"/>
+		<phrase id="audittrailuserloggedin" value="user already logged in"/>
+		<phrase id="audittrailpasswordexpired" value="password expired"/>
+		<phrase id="audittraillogin" value="login"/>
+		<phrase id="audittraillogout" value="logout"/>
+		<phrase id="autologin" value="Auto login until I logout explicitly"/>
+		<phrase id="average" value="Average"/>
+		<phrase id="backtolist" value="Back to List"/>
+		<phrase id="backtologin" value="Back to login page"/>
+		<phrase id="backtomasterrecordpage" value="Back to master table"/>
+		<phrase id="batchdeletebegin" value="*** Batch delete begin ***"/>
+		<phrase id="batchdeleterollback" value="*** Batch delete rollback ***"/>
+		<phrase id="batchdeletesuccess" value="*** Batch delete successful ***"/>
+		<phrase id="batchinsertbegin" value="*** Batch insert begin ***"/>
+		<phrase id="batchinsertrollback" value="*** Batch insert rollback ***"/>
+		<phrase id="batchinsertsuccess" value="*** Batch insert successful ***"/>
+		<phrase id="batchupdatebegin" value="*** Batch update begin ***"/>
+		<phrase id="batchupdaterollback" value="*** Batch update rollback ***"/>
+		<phrase id="batchupdatesuccess" value="*** Batch update successful ***"/>
+		<phrase id="breadcrumbdivider" value="/"/>
+		<phrase id="buttonactions" value="Actions"/>
+		<phrase id="buttonaddedit" value="Add/Edit"/>
+		<phrase id="buttondetails" value="Master/Detail"/>
+		<phrase id="buttonexport" value="Export"/>
+		<phrase id="buttonlistoptions" value="Options"/>
+		<phrase id="cancelbtn" value="Cancel"/>
+		<phrase id="cancellink" value="Cancel" imageurl="phpimages/cancel.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="changepwd" value="Change Password"/>
+		<phrase id="changepwdpage" value="Change Password"/>
+		<phrase id="changepwdbtn" value="Change"/>
+		<phrase id="choosefile" value="Choose..."/>
+		<phrase id="confirm" value="Confirm"/>
+		<phrase id="confirmbtn" value="Confirm"/>
+		<phrase id="confirmpassword" value="Confirm Password"/>
+		<phrase id="conflictcancellink" value="Cancel"/>
+		<phrase id="copy" value="Copy"/>
+		<phrase id="copylink" value="Copy" imageurl="phpimages/copy.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="count" value="Count"/>
+		<phrase id="customactioncompleted" value="Action '%s' is completed"/>
+		<phrase id="customactioncancelled" value="Action '%s' is cancelled"/>
+		<phrase id="customview" value="CUSTOM VIEW"/>
+		<phrase id="delete" value="Delete"/>
+		<phrase id="deletebtn" value="Delete"/>
+		<phrase id="deletecancelled" value="Delete cancelled"/>
+		<phrase id="deleteconfirmmsg" value="Do you want to delete this record?" client="1"/>
+		<phrase id="deletelink" value="Delete" imageurl="phpimages/delete.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="deletemulticonfirmmsg" value="Do you want to delete the selected records?" client="1"/>
+		<phrase id="deleteselectedlink" value="Delete Selected Records"/>
+		<phrase id="deletesuccess" value="Delete succeeded"/>
+		<phrase id="detaillink" value=""/>
+		<phrase id="detailcount" value="(%c)"/>
+		<phrase id="masterdetailcopylink" value="Master/Detail Copy"/>
+		<phrase id="masterdetaileditlink" value="Master/Detail Edit"/>
+		<phrase id="masterdetailviewlink" value="Master/Detail View"/>
+		<phrase id="dupindex" value="Duplicate value '%v' for unique index '%f'"/>
+		<phrase id="dupkey" value="Duplicate primary key: '%f'"/>
+		<phrase id="edit" value="Edit"/>
+		<phrase id="editbtn" value="Edit"/>
+		<phrase id="editlink" value="Edit" imageurl="phpimages/edit.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="enternewpassword" value="Please enter new password" client="1"/>
+		<phrase id="enteroldpassword" value="Please enter old password" client="1"/>
+		<phrase id="enterpassword" value="Please enter password" client="1"/>
+		<phrase id="enterpwd" value="Please enter password" client="1"/>
+		<phrase id="enterrequiredfield" value="Please enter required field" client="1"/>
+		<phrase id="entersearchcriteria" value="Please enter search criteria"/>
+		<phrase id="enterusername" value="Please enter username" client="1"/>
+		<phrase id="entervalidatecode" value="Please enter the validation code shown" client="1"/>
+		<phrase id="entersenderemail" value="Please enter sender email" client="1"/>
+		<phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
+		<phrase id="enterrecipientemail" value="Please enter recipient email" client="1"/>
+		<phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
+		<phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
+		<phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+		<phrase id="entersubject" value="Please enter subject" client="1"/>
+		<phrase id="emailformsender" value="From"/>
+		<phrase id="emailformrecipient" value="To"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Subject"/>
+		<phrase id="emailformmessage" value="Message"/>
+		<phrase id="emailformcontenttype" value="Send as"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="enteruid" value="Please enter user ID" client="1"/>
+		<phrase id="entervalidemail" value="Please enter valid Email Address!" client="1"/>
+		<phrase id="exactphrase" value="Exact phrase"/>
+		<phrase id="exceedmaxretry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes"/>
+		<phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later"/>
+		<phrase id="exporttocsv" value="Export to CSV" imageurl="phpimages/exportcsv.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttocsvtext" value="CSV"/>
+		<phrase id="exporttoemail" value="Email" imageurl="phpimages/exportemail.gif" client="1" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttoemailtext" value="Email" client="1"/>
+		<phrase id="exporttoexcel" value="Export to Excel" imageurl="phpimages/exportxls.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttoexceltext" value="Excel"/>
+		<phrase id="exporttohtml" value="Export to HTML" imageurl="phpimages/exporthtml.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttohtmltext" value="HTML"/>
+		<phrase id="exporttopdf" value="Export to PDF" imageurl="phpimages/exportpdf.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttopdftext" value="PDF"/>
+		<phrase id="exporttoword" value="Export to Word" imageurl="phpimages/exportdoc.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttowordtext" value="Word"/>
+		<phrase id="exporttoxml" value="Export to XML" imageurl="phpimages/exportxml.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttoxmltext" value="XML"/>
+		<phrase id="failedtosendmail" value="Failed to send mail. "/>
+		<phrase id="fieldname" value="Field Name"/>
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+		<phrase id="filenotfound" value="File not found"/><!-- *** characters need to be supported by EW_TMP_IMAGE_FONT *** -->
+		<phrase id="overwritebtn" value="Overwrite"/>
+		<phrase id="overwritelink" value="Overwrite"/>
+		<phrase id="forgotpwd" value="Forgot Password"/>
+		<phrase id="goback" value="Go Back"/>
+		<phrase id="gridaddlink" value="Grid Add"/>
+		<phrase id="gridcancellink" value="Cancel" imageurl="phpimages/cancel.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="grideditlink" value="Grid Edit"/>
+		<phrase id="gridinsertlink" value="Insert" imageurl="phpimages/insert.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="gridsavelink" value="Save" imageurl="phpimages/update.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="hidehighlight" value="Hide highlight" client="1"/>
+		<phrase id="homepage" value="Home"/>
+		<phrase id="incorrectcreditcard" value="Incorrect credit card number"/>
+		<phrase id="incorrectdateymd" value="Incorrect date, format = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Incorrect date, format = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Incorrect date, format = dd%smm%syyyy"/>
+		<phrase id="incorrectshortdateymd" value="Incorrect date, format = yy%smm%sdd"/>
+		<phrase id="incorrectshortdatemdy" value="Incorrect date, format = mm%sdd%syy"/>
+		<phrase id="incorrectshortdatedmy" value="Incorrect date, format = dd%smm%syy"/>
+		<phrase id="incorrectemail" value="Incorrect email" client="1"/>
+		<phrase id="incorrectfield" value="Incorrect field" client="1"/>
+		<phrase id="incorrectfloat" value="Incorrect floating point number" client="1"/>
+		<phrase id="incorrectguid" value="Incorrect GUID" client="1"/>
+		<phrase id="incorrectinteger" value="Incorrect integer" client="1"/>
+		<phrase id="incorrectphone" value="Incorrect phone number" client="1"/>
+		<phrase id="incorrectregexp" value="Regular expression not matched" client="1"/>
+		<phrase id="incorrectrange" value="Number must be between %1 and %2" client="1"/>
+		<phrase id="incorrectssn" value="Incorrect social security number" client="1"/>
+		<phrase id="incorrecttime" value="Incorrect time (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Incorrect ZIP code" client="1"/>
+		<phrase id="inlineaddlink" value="Inline Add"/>
+		<phrase id="inlinecopylink" value="Inline Copy" imageurl="phpimages/inlinecopy.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="inlineeditlink" value="Inline Edit" imageurl="phpimages/inlineedit.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="insertcancelled" value="Insert cancelled"/>
+		<phrase id="insertfailed" value="Insert failed" client="1"/>
+		<phrase id="insertlink" value="Insert" imageurl="phpimages/insert.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="insertsuccess" value="Insert succeeded"/>
+		<phrase id="invalidemail" value="Invalid Email"/>
+		<phrase id="invalidfield" value="Invalid Field"/>
+		<phrase id="invalidkeyvalue" value="Invalid key value"/>
+		<phrase id="invalidrecord" value="Invalid Record! Key is null" client="1"/>
+		<phrase id="invalidparameter" value="Invalid Parameter"/>
+		<phrase id="invalidpassword" value="Invalid Password"/>
+		<phrase id="invalidnewpassword" value="Invalid New Password"/>
+		<phrase id="invaliduidpwd" value="Incorrect user ID or password"/>
+		<phrase id="keep" value="Keep"/>
+		<phrase id="language" value="Language"/>
+		<phrase id="loading" value="Loading..." client="1"/>
+		<phrase id="login" value="Login"/>
+		<phrase id="logincancelled" value="Login cancelled"/>
+		<phrase id="loginpage" value="Login"/>
+		<phrase id="logout" value="Logout"/>
+		<phrase id="masterrecord" value="Master Record: "/>
+		<phrase id="maxfilesize" value="Max. file size (%s bytes) exceeded." client="1"/>
+		<phrase id="messageok" value="OK" client="1"/>
+		<phrase id="mismatchpassword" value="Mismatch Password" client="1"/>
+		<phrase id="missinglookuptablename" value="Missing lookup table name"/>
+		<phrase id="missingdisplayfieldname" value="Missing display field name"/>
+		<phrase id="missingdisplayfieldvalue" value="Missing display field value"/>
+		<phrase id="missinguserlevelid" value="Missing User Level ID"/>
+		<phrase id="missinguserlevelname" value="Missing User Level name"/>
+		<phrase id="mobilemenu" value="Menu"/>
+		<phrase id="multiplemasterdetails" value="Master/Detail"/>
+		<phrase id="new" value="New"/>
+		<phrase id="newpassword" value="New Password"/>
+		<phrase id="newvalue" value="New Value"/>
+		<phrase id="next" value="Next"/>
+		<phrase id="noaddrecord" value="No records to be added" client="1"/>
+		<phrase id="nofieldselected" value="No field selected for update" client="1"/>
+		<phrase id="nopermission" value="You do not have permission to access the page."/>
+		<phrase id="noaddpermission" value="You do not have permission to add the record."/>
+		<phrase id="nodeletepermission" value="You do not have permission to delete the record."/>
+		<phrase id="noeditpermission" value="You do not have permission to edit the record."/>
+		<phrase id="norecord" value="No records found"/>
+		<phrase id="norecordforkey" value="No record found for key = "/>
+		<phrase id="norecordselected" value="No records selected" client="1"/>
+		<phrase id="notablegenerated" value="No tables generated"/>
+		<phrase id="nouserlevel" value="No user level settings."/>
+		<phrase id="of" value="of"/>
+		<phrase id="old" value="Old"/>
+		<phrase id="oldpassword" value="Old Password"/>
+		<phrase id="optionalreadyexist" value="Option already exists"/>
+		<phrase id="page" value="Page"/>
+		<phrase id="pagerfirst" value="First"/>
+		<phrase id="pagerlast" value="Last"/>
+		<phrase id="pagernext" value="Next"/>
+		<phrase id="pagerprevious" value="Previous"/>
+		<phrase id="password" value="Password"/>
+		<phrase id="passwordrequest" value="Password Request"/>
+		<phrase id="passwordchanged" value="Password Changed"/>
+		<phrase id="passwordexpired" value="Password Expired. Please change password."/>
+		<phrase id="permission" value="Permissions"/>
+		<phrase id="permissionaddcopy" value="Add/Copy"/>
+		<phrase id="permissiondelete" value="Delete"/>
+		<phrase id="permissionedit" value="Edit"/>
+		<phrase id="permissionlistsearchview" value="List/Search/View"/>
+		<phrase id="permissionlist" value="List"/>
+		<phrase id="permissionsearch" value="Search"/>
+		<phrase id="permissionview" value="View"/>
+		<phrase id="pickdate" value="Pick a date"/>
+		<phrase id="pleaseselect" value="Please Select"/>
+		<phrase id="pleasewait" value="Please wait..." client="1"/>
+		<phrase id="primarykeyunspecified" value="Primary key unspecified"/>
+		<phrase id="printerfriendly" value="Printer Friendly" imageurl="phpimages/print.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="printerfriendlytext" value="Printer Friendly"/>
+		<phrase id="prev" value="Prev"/>
+		<phrase id="pwdemailsent" value="Password sent to your email"/>
+		<phrase id="resetpwdemailsent" value="The reset password email has been sent to you"/>
+		<phrase id="quicksearch" value="Quick Search"/>
+		<phrase id="quicksearchbtn" value="Search"/>
+		<phrase id="record" value="Records"/>
+		<phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data."/>
+		<phrase id="recorddeleted" value="record(s) deleted"/>
+		<phrase id="recordinserted" value="record(s) inserted"/>
+		<phrase id="recordupdated" value="record(s) updated"/>
+		<phrase id="recordsperpage" value="Page Size"/>
+		<phrase id="register" value="Register"/>
+		<phrase id="registerbtn" value="Register"/>
+		<phrase id="registersuccess" value="Registration succeeded"/>
+		<phrase id="registersuccessactivate" value="Registration succeeded. An email has been sent to your email address, please click the link in the email to activate your account."/>
+		<phrase id="registerpage" value="Registration"/>
+		<phrase id="relatedrecordrequired" value="You cannot add or update a record because the foreign key value does not exist in the master table '%t'"/>
+		<phrase id="relatedrecordexists" value="You cannot delete a record because related records exist in the detail table '%t'"/>
+		<phrase id="reloadbtn" value="Reload"/>
+		<phrase id="reloadlink" value="Reload"/>
+		<phrase id="rememberme" value="Remember me"/>
+		<phrase id="remove" value="Remove"/>
+		<phrase id="replace" value="Replace"/>
+		<phrase id="report" value="Report"/>
+		<phrase id="requestpwdpage" value="Request Password"/>
+		<phrase id="reset" value="Reset"/>
+		<phrase id="resetsearch" value="Reset"/>
+		<phrase id="rptavg" value="Average"/>
+		<phrase id="rptdtlrec" value="Detail Records"/>
+		<phrase id="rptgrandtotal" value="Grand Total"/>
+		<phrase id="rptmax" value="Maximum"/>
+		<phrase id="rptmin" value="Minimum"/>
+		<phrase id="rptsum" value="Sum"/>
+		<phrase id="rptsumhead" value="Summary for"/>
+		<phrase id="saveusername" value="Save my user name"/>
+		<phrase id="search" value="Search"/>
+		<phrase id="sendemailbtn" value="Send"/>
+		<phrase id="sendemailsuccess" value="Email sent successfully" client="1"/>
+		<phrase id="sendpwd" value="Send"/>
+		<phrase id="sequencenumber" value="%s."/>
+		<phrase id="showall" value="Show all"/>
+		<phrase id="showhighlight" value="Show highlight" client="1"/>
+		<phrase id="srchlegend" value=""/>
+		<phrase id="table" value="TABLE"/>
+		<phrase id="tbltypetable" value="Table: "/>
+		<phrase id="tbltypeview" value="View: "/>
+		<phrase id="tbltypecustomview" value="Custom View: "/>
+		<phrase id="tbltypereport" value="Report: "/>
+		<phrase id="to" value="to"/>
+		<phrase id="total" value="Total"/>
+		<phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)."/>
+		<phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)."/>
+		<phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f"/>
+		<phrase id="unmatchedvalue" value="Value does not exist" imageurl="phpimages/warn.gif" imagewidth="16" imageheight="15"/>
+		<phrase id="update" value="Update"/>
+		<phrase id="updatebtn" value="Update"/>
+		<phrase id="updatecancelled" value="Update cancelled"/>
+		<phrase id="updatefailed" value="Update failed"/>
+		<phrase id="updatelink" value="Update" imageurl="phpimages/update.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="updateselectedlink" value="Update Selected Records"/>
+		<phrase id="updatesuccess" value="Update succeeded"/>
+		<phrase id="uploading" value="Uploading..." client="1"/>
+		<phrase id="uploadstart" value="Start" client="1"/>
+		<phrase id="uploadcancel" value="Cancel" client="1"/>
+		<phrase id="uploaddelete" value="Delete" client="1"/>
+		<phrase id="uploadoverwrite" value="Overwrite old file?" client="1"/>
+		<phrase id="uploaderrmsg1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini"/>
+		<phrase id="uploaderrmsg2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"/>
+		<phrase id="uploaderrmsg3" value="The uploaded file was only partially uploaded"/>
+		<phrase id="uploaderrmsg4" value="No file was uploaded"/>
+		<phrase id="uploaderrmsg6" value="Missing a temporary folder"/>
+		<phrase id="uploaderrmsg7" value="Failed to write file to disk"/>
+		<phrase id="uploaderrmsg8" value="A PHP extension stopped the file upload"/>
+		<phrase id="uploaderrmsgpostmaxsize" value="The uploaded file exceeds the post_max_size directive in php.ini"/>
+		<phrase id="uploaderrmsgmaxfilesize" value="File is too big"/>
+		<phrase id="uploaderrmsgminfilesize" value="File is too small"/>
+		<phrase id="uploaderrmsgacceptfiletypes" value="Filetype not allowed"/>
+		<phrase id="uploaderrmsgmaxnumberoffiles" value="Maximum number of files exceeded" client="1"/>
+		<phrase id="uploaderrmsgmaxwidth" value="Image exceeds maximum width"/>
+		<phrase id="uploaderrmsgminwidth" value="Image requires a minimum width"/>
+		<phrase id="uploaderrmsgmaxheight" value="Image exceeds maximum height"/>
+		<phrase id="uploaderrmsgminheight" value="Image requires a minimum height"/>
+		<phrase id="uploaderrmsgmaxfilelength" value="Total length of file names exceeds field length" client="1"/>
+		<phrase id="updatevalue" value="Update"/>
+		<phrase id="useremail" value="Email"/>
+		<phrase id="userexists" value="User already exists"/>
+		<phrase id="userlevel" value="User Level: "/>
+		<phrase id="userleveladministratorname" value="User level name for user level -1 must be 'Administrator'" client="1"/>
+		<phrase id="userlevelpermission" value="User Level Permissions"/>
+		<phrase id="userlevelidinteger" value="User Level ID must be integer" client="1"/>
+		<phrase id="userleveldefaultname" value="User level name for user level 0 must be 'Default'" client="1"/>
+		<phrase id="userlevelidincorrect" value="User defined User Level ID must be larger than 0" client="1"/>
+		<phrase id="userlevelnameincorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1"/>
+		<phrase id="userloggedin" value="User '%u' already logged in!"/>
+		<phrase id="username" value="User Name"/>
+		<phrase id="userprofilecorrupted" value="User profile is corrupted. Please logout and login again"/>
+		<phrase id="view" value="View"/>
+		<phrase id="viewlink" value="View" imageurl="phpimages/view.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="viewpageaddlink" value="Add"/>
+		<phrase id="viewpagecopylink" value="Copy"/>
+		<phrase id="viewpagedeletelink" value="Delete"/>
+		<phrase id="viewpagedetaillink" value=""/>
+		<phrase id="viewpageeditlink" value="Edit"/>
+		<phrase id="wrongfiletype" value="File type is not allowed." client="1"/>
+		<phrase id="tableorview" value="Tables"/>
+		<phrase id="=" value=""/>
+		<phrase id="&lt;&gt;" value="&lt;&gt;"/>
+		<phrase id="&lt;" value="&lt;"/>
+		<phrase id="&lt;=" value="&lt;="/>
+		<phrase id="&gt;" value="&gt;"/>
+		<phrase id="&gt;=" value="&gt;="/>
+		<phrase id="like" value="contains"/>
+		<phrase id="not like" value="not contains"/>
+		<phrase id="starts with" value="starts with"/>
+		<phrase id="ends with" value="ends with"/>
+		<phrase id="is null" value="is null"/>
+		<phrase id="is not null" value="is not null"/>
+		<phrase id="between" value="between"/>
+		<phrase id="and" value="and"/>
+		<phrase id="or" value="or"/>
+	</global>
+	<project><phrase id="bodytitle" value="Sistem Persewaan Lapangan Futsal"/>
+<phrase id="footertext" value="&amp;copy;2013 Www.SIG-it.Web.ID. All rights reserved."/>
+<menu id="37"><phrase id="menutext" value="Home"/>
+</menu>
+<menu id="38"><phrase id="menutext" value="Master"/>
+</menu>
+<menu id="3"><phrase id="menutext" value="Lapangan"/>
+</menu>
+<menu id="4"><phrase id="menutext" value="Pelanggan"/>
+</menu>
+<menu id="13"><phrase id="menutext" value="Produk Kantin"/>
+</menu>
+<menu id="15"><phrase id="menutext" value="Suplier Kantin"/>
+</menu>
+<menu id="14"><phrase id="menutext" value="Satuan"/>
+</menu>
+<menu id="39"><phrase id="menutext" value="Persewaan"/>
+</menu>
+<menu id="40"><phrase id="menutext" value="Sewa Lapangan / Booking"/>
+</menu>
+<menu id="41"><phrase id="menutext" value="Browse Semua Transaksi"/>
+</menu>
+<menu id="42"><phrase id="menutext" value="Transaksi Baru"/>
+</menu>
+<menu id="43"><phrase id="menutext" value="Booking"/>
+</menu>
+<menu id="44"><phrase id="menutext" value="Jadwal / Daftar Booking Lapangan"/>
+</menu>
+<menu id="45"><phrase id="menutext" value="Kantin"/>
+</menu>
+<menu id="47"><phrase id="menutext" value="Penjualan"/>
+</menu>
+<menu id="48"><phrase id="menutext" value="Pembelian / Tambah Stok"/>
+</menu>
+<menu id="49"><phrase id="menutext" value="Laporan"/>
+</menu>
+<menu id="50"><phrase id="menutext" value="Master"/>
+</menu>
+<menu id="53"><phrase id="menutext" value="Master Lapangan"/>
+</menu>
+<menu id="54"><phrase id="menutext" value="Master Pelanggan"/>
+</menu>
+<menu id="51"><phrase id="menutext" value="Persewaan"/>
+</menu>
+<menu id="55"><phrase id="menutext" value="Browse Rekapitulasi Persewaan"/>
+</menu>
+<menu id="56"><phrase id="menutext" value="Browse Transaksi Belum Lunas"/>
+</menu>
+<menu id="52"><phrase id="menutext" value="Kantin"/>
+</menu>
+<menu id="57"><phrase id="menutext" value="Rekapitulasi Penjualan"/>
+</menu>
+<menu id="58"><phrase id="menutext" value="Rekapitulasi Pembelian"/>
+</menu>
+<menu id="59"><phrase id="menutext" value="Stok Barang Kantin"/>
+</menu>
+<menu id="60"><phrase id="menutext" value="Penjualan Belum Lunas"/>
+</menu>
+<menu id="61"><phrase id="menutext" value="Pembelian Belum Lunas"/>
+</menu>
+<menu id="8"><phrase id="menutext" value="lic"/>
+</menu>
+<menu id="9"><phrase id="menutext" value="Laporan Daftar Pelanggan"/>
+</menu>
+<menu id="10"><phrase id="menutext" value="Booking"/>
+</menu>
+<menu id="11"><phrase id="menutext" value="Laporan Daftar Lapangan"/>
+</menu>
+<menu id="12"><phrase id="menutext" value="Rekapitulasi Persewaan"/>
+</menu>
+<menu id="16"><phrase id="menutext" value="pembelian detail"/>
+</menu>
+<menu id="17"><phrase id="menutext" value="pembelian master"/>
+</menu>
+<menu id="18"><phrase id="menutext" value="penjualan detail"/>
+</menu>
+<menu id="19"><phrase id="menutext" value="penjualan master"/>
+</menu>
+<menu id="20"><phrase id="menutext" value="Sisa Stok"/>
+</menu>
+<menu id="21"><phrase id="menutext" value="Sisa Bayar"/>
+</menu>
+<menu id="22"><phrase id="menutext" value="Rekapitulasi Penjualan"/>
+</menu>
+<menu id="23"><phrase id="menutext" value="Rekapitulasi Pembelian"/>
+</menu>
+<menu id="24"><phrase id="menutext" value="Penjualan Belum Lunas"/>
+</menu>
+<menu id="25"><phrase id="menutext" value="Pembelian Belum Lunas"/>
+</menu>
+<menu id="26"><phrase id="menutext" value="lapstok"/>
+</menu>
+<menu id="28"><phrase id="menutext" value="menusub 1"/>
+</menu>
+<menu id="29"><phrase id="menutext" value="menusub 2"/>
+</menu>
+<menu id="2"><phrase id="menutext" value="Backup"/>
+</menu>
+<menu id="5"><phrase id="menutext" value="Transaksi Persewaan Lapangan Detail"/>
+</menu>
+<menu id="6"><phrase id="menutext" value="Transaksi Persewaan Lapangan"/>
+</menu>
+<menu id="7"><phrase id="menutext" value="Profile"/>
+</menu>
+<menu id="46"><phrase id="menutext" value="Setting"/>
+</menu>
+<menu id="1"><phrase id="menutext" value="Admin"/>
+</menu>
+<menu id="66"><phrase id="menutext" value="Profil"/>
+</menu>
+<menu id="62"><phrase id="menutext" value="Tools"/>
+</menu>
+<menu id="67"><phrase id="menutext" value="Backup"/>
+</menu>
+<menu id="68"><phrase id="menutext" value="Restore"/>
+</menu>
+<menu id="69"><phrase id="menutext" value="Reset Data"/>
+</menu>
+<menu id="27"><phrase id="menutext" value="Menu"/>
+</menu>
+<menu id="64"><phrase id="menutext" value="Help"/>
+</menu>
+<table id="_2padmin"><phrase id="tblcaption" value="Admin"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="nama"><phrase id="fldcaption" value="Nama"/>
+</field>
+<field id="username"><phrase id="fldcaption" value="Username"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="Password"/>
+</field>
+<field id="level"><phrase id="fldcaption" value="Level"/>
+<phrase id="fldtagvalue1" value="-1"/>
+<phrase id="fldtagcaption1" value="Administrator"/>
+<phrase id="fldtagvalue2" value="0"/>
+<phrase id="fldtagcaption2" value="Default"/>
+<phrase id="fldtagvalue3" value="1"/>
+<phrase id="fldtagcaption3" value="Operator"/>
+</field>
+<field id="jabatan"><phrase id="fldcaption" value="Jabatan"/>
+</field>
+<field id="foto"><phrase id="fldcaption" value="Foto"/>
+</field>
+<field id="temp"><phrase id="fldcaption" value="Temp"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="Tidak"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="Ya"/>
+</field>
+</table>
+<table id="_2pbackup"><phrase id="tblcaption" value="Backup"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="dbpath"><phrase id="fldcaption" value="DBPath"/>
+</field>
+<field id="topath"><phrase id="fldcaption" value="To Path"/>
+</field>
+</table>
+<table id="daftar_lapangan"><phrase id="tblcaption" value="Daftar Lapangan"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="kode"><phrase id="fldcaption" value="Kode"/>
+</field>
+<field id="namalapangan"><phrase id="fldcaption" value="Nama Lapangan"/>
+</field>
+<field id="ukuran"><phrase id="fldcaption" value="Ukuran"/>
+</field>
+<field id="kondisi"><phrase id="fldcaption" value="Kondisi"/>
+</field>
+<field id="hargasewa1"><phrase id="fldcaption" value="Harga Pagi Member"/>
+</field>
+<field id="hargasewa2"><phrase id="fldcaption" value="Harga Pagi Non Member"/>
+</field>
+<field id="hargasewa3"><phrase id="fldcaption" value="Harga Malam Member"/>
+</field>
+<field id="hargasewa4"><phrase id="fldcaption" value="Harga Malam Non Member"/>
+</field>
+<field id="hargasewa5"><phrase id="fldcaption" value="Harga Sewa 5"/>
+</field>
+<field id="member"><phrase id="fldcaption" value="Member"/>
+</field>
+<field id="nonmember"><phrase id="fldcaption" value="Non Member"/>
+</field>
+<field id="waktu"><phrase id="fldcaption" value="Waktu"/>
+</field>
+<field id="stamp"><phrase id="fldcaption" value="Stamp"/>
+</field>
+</table>
+<table id="daftar_pelanggan"><phrase id="tblcaption" value="Daftar Pelanggan"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="kode"><phrase id="fldcaption" value="Kode"/>
+</field>
+<field id="namapenyewa"><phrase id="fldcaption" value="Nama Penyewa"/>
+</field>
+<field id="namateam"><phrase id="fldcaption" value="Nama Team"/>
+</field>
+<field id="alamat"><phrase id="fldcaption" value="Alamat"/>
+</field>
+<field id="kota"><phrase id="fldcaption" value="Kota"/>
+</field>
+<field id="telepon"><phrase id="fldcaption" value="Telepon"/>
+</field>
+<field id="fax"><phrase id="fldcaption" value="Fax"/>
+</field>
+<field id="hp"><phrase id="fldcaption" value="HP"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email"/>
+</field>
+<field id="website"><phrase id="fldcaption" value="Website"/>
+</field>
+<field id="main"><phrase id="fldcaption" value="Main"/>
+</field>
+<field id="waktu"><phrase id="fldcaption" value="Waktu"/>
+</field>
+<field id="stamp"><phrase id="fldcaption" value="Stamp"/>
+</field>
+</table>
+<table id="lic"><phrase id="tblcaption" value="Lisensi"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="serial"><phrase id="fldcaption" value="Serial"/>
+</field>
+<field id="kode"><phrase id="fldcaption" value="Kode"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+<field id="waktu"><phrase id="fldcaption" value="Waktu"/>
+</field>
+<field id="stamp"><phrase id="fldcaption" value="Stamp"/>
+</field>
+</table>
+<table id="persewaan_lapangan_2d_detail"><phrase id="tblcaption" value="Sewa Lapangan"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="kode"><phrase id="fldcaption" value="Kode"/>
+</field>
+<field id="namalapangan"><phrase id="fldcaption" value="Nama Lapangan"/>
+</field>
+<field id="tglsewa"><phrase id="fldcaption" value="Tgl Sewa"/>
+</field>
+<field id="jamsewa"><phrase id="fldcaption" value="Jam Sewa"/>
+<phrase id="fldtagvalue1" value="07:00:00"/>
+<phrase id="fldtagcaption1" value="07:00:00"/>
+<phrase id="fldtagvalue2" value="08:00:00"/>
+<phrase id="fldtagcaption2" value="08:00:00"/>
+<phrase id="fldtagvalue3" value="09:00:00"/>
+<phrase id="fldtagcaption3" value="09:00:00"/>
+<phrase id="fldtagvalue4" value="10:00:00"/>
+<phrase id="fldtagcaption4" value="10:00:00"/>
+<phrase id="fldtagvalue5" value="11:00:00"/>
+<phrase id="fldtagcaption5" value="11:00:00"/>
+<phrase id="fldtagvalue6" value="12:00:00"/>
+<phrase id="fldtagcaption6" value="12:00:00"/>
+<phrase id="fldtagvalue7" value="13:00:00"/>
+<phrase id="fldtagcaption7" value="13:00:00"/>
+<phrase id="fldtagvalue8" value="14:00:00"/>
+<phrase id="fldtagcaption8" value="14:00:00"/>
+<phrase id="fldtagvalue9" value="15:00:00"/>
+<phrase id="fldtagcaption9" value="15:00:00"/>
+<phrase id="fldtagvalue10" value="16:00:00"/>
+<phrase id="fldtagcaption10" value="16:00:00"/>
+<phrase id="fldtagvalue11" value="17:00:00"/>
+<phrase id="fldtagcaption11" value="17:00:00"/>
+<phrase id="fldtagvalue12" value="18:00:00"/>
+<phrase id="fldtagcaption12" value="18:00:00"/>
+<phrase id="fldtagvalue13" value="19:00:00"/>
+<phrase id="fldtagcaption13" value="19:00:00"/>
+<phrase id="fldtagvalue14" value="20:00:00"/>
+<phrase id="fldtagcaption14" value="20:00:00"/>
+<phrase id="fldtagvalue15" value="21:00:00"/>
+<phrase id="fldtagcaption15" value="21:00:00"/>
+<phrase id="fldtagvalue16" value="22:00:00"/>
+<phrase id="fldtagcaption16" value="22:00:00"/>
+<phrase id="fldtagvalue17" value="23:00:00"/>
+<phrase id="fldtagcaption17" value="23:00:00"/>
+<phrase id="fldtagvalue18" value="24:00:00"/>
+<phrase id="fldtagcaption18" value="24:00:00"/>
+</field>
+<field id="hargasewa"><phrase id="fldcaption" value="Harga Sewa"/>
+</field>
+<field id="hitung"/>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+<phrase id="fldtagvalue1" value="Booking"/>
+<phrase id="fldtagcaption1" value="Booking"/>
+<phrase id="fldtagvalue2" value="Selesai"/>
+<phrase id="fldtagcaption2" value="Selesai"/>
+</field>
+<field id="idm"><phrase id="fldcaption" value="IDM"/>
+</field>
+<field id="waktu"><phrase id="fldcaption" value="Waktu"/>
+</field>
+<field id="stamp"><phrase id="fldcaption" value="Stamp"/>
+</field>
+</table>
+<table id="persewaan_lapangan_2d_master"><phrase id="tblcaption" value="Transaksi Persewaan Lapangan"/>
+<phrase id="tblpagecaption1" value="Faktur"/>
+<phrase id="tblpagecaption2" value="Customer"/>
+<phrase id="tblpagecaption3" value="Administrasi"/>
+<phrase id="tblpagecaption4" value="Status"/>
+<phrase id="tblpagecaption5" value="Aksi"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="no"><phrase id="fldcaption" value="No"/>
+</field>
+<field id="no_faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="tgl"><phrase id="fldcaption" value="Tgl."/>
+</field>
+<field id="kode"><phrase id="fldcaption" value="Kode / Nama Pelanggan"/>
+</field>
+<field id="nama"><phrase id="fldcaption" value="Nama Pemesan"/>
+</field>
+<field id="alamat"><phrase id="fldcaption" value="Alamat"/>
+</field>
+<field id="kota"><phrase id="fldcaption" value="Kota"/>
+</field>
+<field id="telepon"><phrase id="fldcaption" value="Telepon"/>
+</field>
+<field id="main"><phrase id="fldcaption" value="Main"/>
+</field>
+<field id="total"><phrase id="fldcaption" value="Total"/>
+</field>
+<field id="bayar"><phrase id="fldcaption" value="Bayar"/>
+</field>
+<field id="sisa"><phrase id="fldcaption" value="Sisa"/>
+</field>
+<field id="sub_total"><phrase id="fldcaption" value="Sub Total"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Disk. (%)"/>
+</field>
+<field id="potongan"><phrase id="fldcaption" value="Potongan"/>
+</field>
+<field id="grand_total"><phrase id="fldcaption" value="Grand Total"/>
+</field>
+<field id="kode_kasir"><phrase id="fldcaption" value="Kode Kasir"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+<phrase id="fldtagvalue1" value="Booking"/>
+<phrase id="fldtagcaption1" value="Booking"/>
+<phrase id="fldtagvalue2" value="Konfirm"/>
+<phrase id="fldtagcaption2" value="Konfirm"/>
+<phrase id="fldtagvalue3" value="Main"/>
+<phrase id="fldtagcaption3" value="Main"/>
+<phrase id="fldtagvalue4" value="Selesai"/>
+<phrase id="fldtagcaption4" value="Selesai"/>
+<phrase id="fldtagvalue5" value="Batal"/>
+<phrase id="fldtagcaption5" value="Batal"/>
+</field>
+<field id="nama_kasir"><phrase id="fldcaption" value="Nama Kasir"/>
+</field>
+<field id="waktu"><phrase id="fldcaption" value="Waktu"/>
+</field>
+<field id="stamp"><phrase id="fldcaption" value="Stamp"/>
+</field>
+<field id="hitung"/>
+<field id="cetak_struk"/>
+</table>
+<table id="profile"><phrase id="tblcaption" value="Profil"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="kode"><phrase id="fldcaption" value="Kode"/>
+</field>
+<field id="namatoko"><phrase id="fldcaption" value="Nama"/>
+</field>
+<field id="pemilik"><phrase id="fldcaption" value="Pemilik"/>
+</field>
+<field id="alamat"><phrase id="fldcaption" value="Alamat"/>
+</field>
+<field id="kota"><phrase id="fldcaption" value="Kota"/>
+</field>
+<field id="telepon"><phrase id="fldcaption" value="Telepon"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email"/>
+</field>
+<field id="foto"><phrase id="fldcaption" value="Foto"/>
+</field>
+<field id="serial"><phrase id="fldcaption" value="Serial"/>
+</field>
+<field id="keycode"><phrase id="fldcaption" value="Key Code"/>
+</field>
+<field id="waktu"><phrase id="fldcaption" value="Waktu"/>
+</field>
+<field id="stamp"><phrase id="fldcaption" value="Stamp"/>
+</field>
+<field id="mobile"><phrase id="fldcaption" value="Versi Mobile"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="Tidak"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="Ya"/>
+</field>
+</table>
+<table id="daftar_produk"><phrase id="tblcaption" value="Daftar Produk"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="tglstok"><phrase id="fldcaption" value="Tgl Stok"/>
+</field>
+<field id="kode"><phrase id="fldcaption" value="Kode"/>
+</field>
+<field id="nama_barang"><phrase id="fldcaption" value="Nama Barang"/>
+</field>
+<field id="isi"><phrase id="fldcaption" value="Isi"/>
+</field>
+<field id="satuan"><phrase id="fldcaption" value="Satuan"/>
+</field>
+<field id="berat"><phrase id="fldcaption" value="Berat"/>
+</field>
+<field id="harga_pokok"><phrase id="fldcaption" value="Harga Pokok"/>
+</field>
+<field id="harga_jual"><phrase id="fldcaption" value="Harga Jual"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="jumlah_total"><phrase id="fldcaption" value="Jumlah Total"/>
+</field>
+<field id="supplier"><phrase id="fldcaption" value="Supplier"/>
+</field>
+<field id="departemen"><phrase id="fldcaption" value="Departemen"/>
+</field>
+<field id="foto"><phrase id="fldcaption" value="Foto"/>
+</field>
+<field id="waktu"><phrase id="fldcaption" value="Waktu"/>
+</field>
+<field id="stamp"><phrase id="fldcaption" value="Stamp"/>
+</field>
+</table>
+<table id="daftar_satuan"><phrase id="tblcaption" value="Daftar Satuan"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="satuan"><phrase id="fldcaption" value="Satuan"/>
+</field>
+</table>
+<table id="daftar_suplier"><phrase id="tblcaption" value="Daftar Supplier"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="kode"><phrase id="fldcaption" value="Kode"/>
+</field>
+<field id="nama"><phrase id="fldcaption" value="Nama"/>
+</field>
+<field id="alamat"><phrase id="fldcaption" value="Alamat"/>
+</field>
+<field id="kota"><phrase id="fldcaption" value="Kota"/>
+</field>
+<field id="telepon"><phrase id="fldcaption" value="Telepon"/>
+</field>
+<field id="fax"><phrase id="fldcaption" value="Fax"/>
+</field>
+<field id="hp"><phrase id="fldcaption" value="HP"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email"/>
+</field>
+<field id="website"><phrase id="fldcaption" value="Website"/>
+</field>
+<field id="waktu"><phrase id="fldcaption" value="Waktu"/>
+</field>
+<field id="stamp"><phrase id="fldcaption" value="Stamp"/>
+</field>
+</table>
+<table id="pembelian_2d_detail"><phrase id="tblcaption" value="Pembelian Detail"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="kode"><phrase id="fldcaption" value="Kode"/>
+</field>
+<field id="nama_barang"><phrase id="fldcaption" value="Nama Barang"/>
+</field>
+<field id="isi"><phrase id="fldcaption" value="Isi"/>
+</field>
+<field id="satuan"><phrase id="fldcaption" value="Satuan"/>
+</field>
+<field id="harga_beli"><phrase id="fldcaption" value="Harga Beli"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="total_jumlah"><phrase id="fldcaption" value="Total Jumlah"/>
+</field>
+<field id="berat"><phrase id="fldcaption" value="Berat"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="total_hp"><phrase id="fldcaption" value="Total"/>
+</field>
+<field id="retur"><phrase id="fldcaption" value="Retur"/>
+</field>
+<field id="user"><phrase id="fldcaption" value="User"/>
+</field>
+<field id="waktu"><phrase id="fldcaption" value="Waktu"/>
+</field>
+<field id="stamp"><phrase id="fldcaption" value="Stamp"/>
+</field>
+<field id="idm"><phrase id="fldcaption" value="IDM"/>
+</field>
+</table>
+<table id="pembelian_2d_master"><phrase id="tblcaption" value="Pembelian Kantin"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="tgl"><phrase id="fldcaption" value="Tgl."/>
+</field>
+<field id="faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="no_faktur"><phrase id="fldcaption" value="No. Faktur"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="ppn"><phrase id="fldcaption" value="Ppn"/>
+</field>
+<field id="ongkir"><phrase id="fldcaption" value="Ongkir"/>
+</field>
+<field id="paking"><phrase id="fldcaption" value="Paking"/>
+</field>
+<field id="lain_2d_lain"><phrase id="fldcaption" value="Lain lain"/>
+</field>
+<field id="hutang"><phrase id="fldcaption" value="Hutang"/>
+</field>
+<field id="total_berat"><phrase id="fldcaption" value="Total Berat"/>
+</field>
+<field id="total_hp"><phrase id="fldcaption" value="Harga"/>
+</field>
+<field id="total_hj"><phrase id="fldcaption" value="Total HJ"/>
+</field>
+<field id="grand_total"><phrase id="fldcaption" value="Grand Total"/>
+</field>
+<field id="dibayar"><phrase id="fldcaption" value="Dibayar"/>
+</field>
+<field id="kembali"><phrase id="fldcaption" value="Kembali"/>
+</field>
+<field id="sisadibayar"><phrase id="fldcaption" value="Sisa Dibayar"/>
+</field>
+<field id="kode_kasir"><phrase id="fldcaption" value="Kode Kasir"/>
+</field>
+<field id="nama_kasir"><phrase id="fldcaption" value="Nama Kasir"/>
+</field>
+<field id="kode_supplier"><phrase id="fldcaption" value="Kode Supplier"/>
+</field>
+<field id="nama_supplier"><phrase id="fldcaption" value="Nama Supplier"/>
+</field>
+<field id="nama_form"><phrase id="fldcaption" value="Nama Form"/>
+</field>
+<field id="no"><phrase id="fldcaption" value="No"/>
+</field>
+<field id="waktu"><phrase id="fldcaption" value="Waktu"/>
+</field>
+<field id="stamp"><phrase id="fldcaption" value="Stamp"/>
+</field>
+<field id="hitung"><phrase id="fldcaption" value="Hitung"/>
+</field>
+</table>
+<table id="penjualan_2d_detail"><phrase id="tblcaption" value="Penjualan Detail"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="kode"><phrase id="fldcaption" value="Kode"/>
+</field>
+<field id="nama_barang"><phrase id="fldcaption" value="Nama Barang"/>
+</field>
+<field id="isi"><phrase id="fldcaption" value="Isi"/>
+</field>
+<field id="satuan"><phrase id="fldcaption" value="Satuan"/>
+</field>
+<field id="harga_pokok"><phrase id="fldcaption" value="Harga Pokok"/>
+</field>
+<field id="harga_jual"><phrase id="fldcaption" value="Harga Jual"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="total_jumlah"><phrase id="fldcaption" value="Total Jumlah"/>
+</field>
+<field id="berat"><phrase id="fldcaption" value="Berat"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Disk. %"/>
+</field>
+<field id="total_hp"><phrase id="fldcaption" value="Total HP"/>
+</field>
+<field id="total_hj"><phrase id="fldcaption" value="Total"/>
+</field>
+<field id="saldo"><phrase id="fldcaption" value="Saldo"/>
+</field>
+<field id="retur"><phrase id="fldcaption" value="Retur"/>
+</field>
+<field id="user"><phrase id="fldcaption" value="User"/>
+</field>
+<field id="idm"><phrase id="fldcaption" value="IDM"/>
+</field>
+<field id="waktu"><phrase id="fldcaption" value="Waktu"/>
+</field>
+<field id="stamp"><phrase id="fldcaption" value="Stamp"/>
+</field>
+</table>
+<table id="penjualan_2d_master"><phrase id="tblcaption" value="Penjualan Kantin"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="tgl"><phrase id="fldcaption" value="Tgl."/>
+</field>
+<field id="faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="no_faktur"><phrase id="fldcaption" value="No. Faktur"/>
+</field>
+<field id="ppn"><phrase id="fldcaption" value="Ppn"/>
+</field>
+<field id="ongkir"><phrase id="fldcaption" value="Ongkir"/>
+</field>
+<field id="paking"><phrase id="fldcaption" value="Paking"/>
+</field>
+<field id="lain_2d_lain"><phrase id="fldcaption" value="Lain lain"/>
+</field>
+<field id="piutang"><phrase id="fldcaption" value="Piutang"/>
+</field>
+<field id="total_berat"><phrase id="fldcaption" value="Total Berat"/>
+</field>
+<field id="total_hp"><phrase id="fldcaption" value="Total HP"/>
+</field>
+<field id="total_hj"><phrase id="fldcaption" value="Sub Total"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Disk. %"/>
+</field>
+<field id="grand_total"><phrase id="fldcaption" value="Grand Total"/>
+</field>
+<field id="laba"><phrase id="fldcaption" value="Laba"/>
+</field>
+<field id="dibayar"><phrase id="fldcaption" value="Dibayar"/>
+</field>
+<field id="kembali"><phrase id="fldcaption" value="Kembali"/>
+</field>
+<field id="sisadibayar"><phrase id="fldcaption" value="Sisa Dibayar"/>
+</field>
+<field id="kode_pelanggan"><phrase id="fldcaption" value="Kode Pelanggan"/>
+</field>
+<field id="nama_pelanggan"><phrase id="fldcaption" value="Nama Pelanggan"/>
+</field>
+<field id="kode_suplier"><phrase id="fldcaption" value="Kode Suplier"/>
+</field>
+<field id="kode_kasir"><phrase id="fldcaption" value="Kode Kasir"/>
+</field>
+<field id="nama_kasir"><phrase id="fldcaption" value="Nama Kasir"/>
+</field>
+<field id="nama_form"><phrase id="fldcaption" value="Nama Form"/>
+</field>
+<field id="no"><phrase id="fldcaption" value="No"/>
+</field>
+<field id="waktu"><phrase id="fldcaption" value="Waktu"/>
+</field>
+<field id="stamp"><phrase id="fldcaption" value="Stamp"/>
+</field>
+<field id="hitung"><phrase id="fldcaption" value="Hitung"/>
+</field>
+<field id="cetakstruk"><phrase id="fldcaption" value="Cetak Struk"/>
+</field>
+</table>
+<table id="booking"><phrase id="tblcaption" value="Daftar Booking Lapangan"/>
+<field id="tglsewa"><phrase id="fldcaption" value="Tgl Sewa"/>
+</field>
+<field id="jamsewa"><phrase id="fldcaption" value="Jam Sewa"/>
+<phrase id="fldtagvalue1" value="07:00:00"/>
+<phrase id="fldtagcaption1" value="07:00:00"/>
+<phrase id="fldtagvalue2" value="08:00:00"/>
+<phrase id="fldtagcaption2" value="08:00:00"/>
+<phrase id="fldtagvalue3" value="09:00:00"/>
+<phrase id="fldtagcaption3" value="09:00:00"/>
+<phrase id="fldtagvalue4" value="10:00:00"/>
+<phrase id="fldtagcaption4" value="10:00:00"/>
+<phrase id="fldtagvalue5" value="11:00:00"/>
+<phrase id="fldtagcaption5" value="11:00:00"/>
+<phrase id="fldtagvalue6" value="12:00:00"/>
+<phrase id="fldtagcaption6" value="12:00:00"/>
+<phrase id="fldtagvalue7" value="13:00:00"/>
+<phrase id="fldtagcaption7" value="13:00:00"/>
+<phrase id="fldtagvalue8" value="14:00:00"/>
+<phrase id="fldtagcaption8" value="14:00:00"/>
+<phrase id="fldtagvalue9" value="15:00:00"/>
+<phrase id="fldtagcaption9" value="15:00:00"/>
+<phrase id="fldtagvalue10" value="16:00:00"/>
+<phrase id="fldtagcaption10" value="16:00:00"/>
+<phrase id="fldtagvalue11" value="17:00:00"/>
+<phrase id="fldtagcaption11" value="17:00:00"/>
+<phrase id="fldtagvalue12" value="18:00:00"/>
+<phrase id="fldtagcaption12" value="18:00:00"/>
+<phrase id="fldtagvalue13" value="19:00:00"/>
+<phrase id="fldtagcaption13" value="19:00:00"/>
+<phrase id="fldtagvalue14" value="20:00:00"/>
+<phrase id="fldtagcaption14" value="20:00:00"/>
+<phrase id="fldtagvalue15" value="21:00:00"/>
+<phrase id="fldtagcaption15" value="21:00:00"/>
+<phrase id="fldtagvalue16" value="22:00:00"/>
+<phrase id="fldtagcaption16" value="22:00:00"/>
+<phrase id="fldtagvalue17" value="23:00:00"/>
+<phrase id="fldtagcaption17" value="23:00:00"/>
+<phrase id="fldtagvalue18" value="24:00:00"/>
+<phrase id="fldtagcaption18" value="24:00:00"/>
+</field>
+<field id="kode"><phrase id="fldcaption" value="Kode"/>
+</field>
+<field id="namalapangan"><phrase id="fldcaption" value="Nama Lapangan"/>
+</field>
+<field id="no_faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="tgl"><phrase id="fldcaption" value="Tgl. Faktur"/>
+</field>
+<field id="nama"><phrase id="fldcaption" value="Nama Penyewa"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+<phrase id="fldtagvalue1" value="Booking"/>
+<phrase id="fldtagcaption1" value="Booking"/>
+<phrase id="fldtagvalue2" value="Selesai"/>
+<phrase id="fldtagcaption2" value="Selesai"/>
+</field>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+</table>
+<table id="rekapitulasi_persewaan"><phrase id="tblcaption" value="Rekapitulasi Persewaan"/>
+<field id="no_faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="tgl"><phrase id="fldcaption" value="Tgl."/>
+</field>
+<field id="kode"><phrase id="fldcaption" value="Kode"/>
+</field>
+<field id="nama"><phrase id="fldcaption" value="Nama"/>
+</field>
+<field id="bayar"><phrase id="fldcaption" value="Bayar"/>
+</field>
+<field id="sisa"><phrase id="fldcaption" value="Sisa"/>
+</field>
+<field id="sub_total"><phrase id="fldcaption" value="Sub Total"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Disk. (%)"/>
+</field>
+<field id="potongan"><phrase id="fldcaption" value="Potongan"/>
+</field>
+<field id="grand_total"><phrase id="fldcaption" value="Grand Total"/>
+</field>
+<field id="kode_kasir"><phrase id="fldcaption" value="Kode Kasir"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+<phrase id="fldtagvalue1" value="Booking"/>
+<phrase id="fldtagcaption1" value="Booking"/>
+<phrase id="fldtagvalue2" value="Selesai"/>
+<phrase id="fldtagcaption2" value="Selesai"/>
+<phrase id="fldtagvalue3" value="Batal"/>
+<phrase id="fldtagcaption3" value="Batal"/>
+</field>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+</table>
+<table id="sisa_stok"><phrase id="tblcaption" value="Sisa Stok"/>
+<field id="kode"><phrase id="fldcaption" value="Kode"/>
+</field>
+<field id="nama_barang"><phrase id="fldcaption" value="Nama Barang"/>
+</field>
+<field id="stok_awal"><phrase id="fldcaption" value="Stok Awal"/>
+</field>
+<field id="stok_beli"><phrase id="fldcaption" value="Stok Beli"/>
+</field>
+<field id="stok_jual"><phrase id="fldcaption" value="Stok Jual"/>
+</field>
+<field id="kode_jual"><phrase id="fldcaption" value="Kode Jual"/>
+</field>
+<field id="kode_beli"><phrase id="fldcaption" value="Kode Beli"/>
+</field>
+<field id="stok_akhir"><phrase id="fldcaption" value="Stok Akhir"/>
+</field>
+</table>
+<table id="sisa_bayar"><phrase id="tblcaption" value="Transaksi Belum Lunas"/>
+<field id="no_faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="tgl"><phrase id="fldcaption" value="Tgl."/>
+</field>
+<field id="bayar"><phrase id="fldcaption" value="Bayar"/>
+</field>
+<field id="sisa"><phrase id="fldcaption" value="Sisa"/>
+</field>
+<field id="sub_total"><phrase id="fldcaption" value="Sub Total"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Disk. (%)"/>
+</field>
+<field id="potongan"><phrase id="fldcaption" value="Potongan"/>
+</field>
+<field id="grand_total"><phrase id="fldcaption" value="Grand Total"/>
+</field>
+<field id="kode_kasir"><phrase id="fldcaption" value="Kode Kasir"/>
+</field>
+<field id="kode"><phrase id="fldcaption" value="Kode"/>
+</field>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+</table>
+<table id="rekapitulasi_penjualan"><phrase id="tblcaption" value="Rekapitulasi Penjualan"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="tgl"><phrase id="fldcaption" value="Tgl."/>
+</field>
+<field id="no_faktur"><phrase id="fldcaption" value="No. Faktur"/>
+</field>
+<field id="tothpokok"><phrase id="fldcaption" value="Tot. Harga Pokok"/>
+</field>
+<field id="tothjual"><phrase id="fldcaption" value="Tot. Harga Jual"/>
+</field>
+<field id="disk2e_25"><phrase id="fldcaption" value="Disk. %"/>
+</field>
+<field id="grand_total"><phrase id="fldcaption" value="Grand Total"/>
+</field>
+<field id="laba"><phrase id="fldcaption" value="Laba"/>
+</field>
+<field id="kode_pelanggan"><phrase id="fldcaption" value="Kode Pelanggan"/>
+</field>
+<field id="kode_kasir"><phrase id="fldcaption" value="Kode Kasir"/>
+</field>
+</table>
+<table id="rekapitulasi_pembelian"><phrase id="tblcaption" value="Rekapitulasi Pembelian"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="tgl"><phrase id="fldcaption" value="Tgl."/>
+</field>
+<field id="no_faktur"><phrase id="fldcaption" value="No. Faktur"/>
+</field>
+<field id="grand_total"><phrase id="fldcaption" value="Grand Total"/>
+</field>
+<field id="kode_kasir"><phrase id="fldcaption" value="Kode Kasir"/>
+</field>
+<field id="kode_supplier"><phrase id="fldcaption" value="Kode Supplier"/>
+</field>
+</table>
+<table id="penjualan_belum_lunas"><phrase id="tblcaption" value="Penjualan Belum Lunas"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="tgl"><phrase id="fldcaption" value="Tgl."/>
+</field>
+<field id="no_faktur"><phrase id="fldcaption" value="No. Faktur"/>
+</field>
+<field id="grand_total"><phrase id="fldcaption" value="Grand Total"/>
+</field>
+<field id="dibayar"><phrase id="fldcaption" value="Dibayar"/>
+</field>
+<field id="sisadibayar"><phrase id="fldcaption" value="Sisa Dibayar"/>
+</field>
+<field id="kode_pelanggan"><phrase id="fldcaption" value="Kode Pelanggan"/>
+</field>
+<field id="kode_kasir"><phrase id="fldcaption" value="Kode Kasir"/>
+</field>
+</table>
+<table id="pembelian_belum_lunas"><phrase id="tblcaption" value="Pembelian Belum Lunas"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="tgl"><phrase id="fldcaption" value="Tgl."/>
+</field>
+<field id="no_faktur"><phrase id="fldcaption" value="No. Faktur"/>
+</field>
+<field id="grand_total"><phrase id="fldcaption" value="Grand Total"/>
+</field>
+<field id="dibayar"><phrase id="fldcaption" value="Dibayar"/>
+</field>
+<field id="sisadibayar"><phrase id="fldcaption" value="Sisa Dibayar"/>
+</field>
+<field id="kode_supplier"><phrase id="fldcaption" value="Kode Supplier"/>
+</field>
+<field id="kode_kasir"><phrase id="fldcaption" value="Kode Kasir"/>
+</field>
+</table>
+<table id="laporan_daftar_pelanggan"><phrase id="tblcaption" value="Laporan Daftar Pelanggan"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="kode"><phrase id="fldcaption" value="Kode"/>
+</field>
+<field id="namapenyewa"><phrase id="fldcaption" value="Nama Penyewa"/>
+</field>
+<field id="namateam"><phrase id="fldcaption" value="Nama Team"/>
+</field>
+<field id="alamat"><phrase id="fldcaption" value="Alamat"/>
+</field>
+<field id="kota"><phrase id="fldcaption" value="Kota"/>
+</field>
+<field id="telepon"><phrase id="fldcaption" value="Telepon"/>
+</field>
+<field id="fax"><phrase id="fldcaption" value="Fax"/>
+</field>
+<field id="hp"><phrase id="fldcaption" value="HP"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email"/>
+</field>
+<field id="website"><phrase id="fldcaption" value="Website"/>
+</field>
+<field id="main"><phrase id="fldcaption" value="Main"/>
+</field>
+<field id="waktu"><phrase id="fldcaption" value="Waktu"/>
+</field>
+<field id="stamp"><phrase id="fldcaption" value="Stamp"/>
+</field>
+</table>
+<table id="laporan_daftar_lapangan"><phrase id="tblcaption" value="Laporan Daftar Lapangan"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="kode"><phrase id="fldcaption" value="Kode"/>
+</field>
+<field id="namalapangan"><phrase id="fldcaption" value="Nama Lapangan"/>
+</field>
+<field id="ukuran"><phrase id="fldcaption" value="Ukuran"/>
+</field>
+<field id="kondisi"><phrase id="fldcaption" value="Kondisi"/>
+</field>
+<field id="hargasewa1"><phrase id="fldcaption" value="Harga Pagi Member"/>
+</field>
+<field id="hargasewa2"><phrase id="fldcaption" value="Harga Pagi Non Member"/>
+</field>
+<field id="hargasewa3"><phrase id="fldcaption" value="Harga Malam Member"/>
+</field>
+<field id="hargasewa4"><phrase id="fldcaption" value="Harga Malam Non Member"/>
+</field>
+<field id="hargasewa5"><phrase id="fldcaption" value="Harga Sewa 5"/>
+</field>
+<field id="member"><phrase id="fldcaption" value="Member"/>
+</field>
+<field id="nonmember"><phrase id="fldcaption" value="Non Member"/>
+</field>
+<field id="waktu"><phrase id="fldcaption" value="Waktu"/>
+</field>
+<field id="stamp"><phrase id="fldcaption" value="Stamp"/>
+</field>
+</table>
+<table id="lapstok"><phrase id="tblcaption" value="Laporan Stok"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="tgldari"><phrase id="fldcaption" value="Tgl. Dari"/>
+</field>
+<field id="tglke"><phrase id="fldcaption" value="Tgl. Ke"/>
+</field>
+<field id="laporan"><phrase id="fldcaption" value="Laporan"/>
+</field>
+</table>
+<table id="_menu"><phrase id="tblcaption" value="Main Menu"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="mainmenu"><phrase id="fldcaption" value="Main Menu"/>
+</field>
+<field id="link"><phrase id="fldcaption" value="Link"/>
+</field>
+<field id="no"><phrase id="fldcaption" value="No"/>
+</field>
+<field id="akses"><phrase id="fldcaption" value="Akses"/>
+<phrase id="fldtagvalue1" value="9"/>
+<phrase id="fldtagcaption1" value="Administrator"/>
+<phrase id="fldtagvalue2" value="0"/>
+<phrase id="fldtagcaption2" value="Anonim"/>
+<phrase id="fldtagvalue3" value="1"/>
+<phrase id="fldtagcaption3" value="Operator"/>
+</field>
+</table>
+<table id="menusub1"><phrase id="tblcaption" value="Menu Sub 1"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="_menu"><phrase id="fldcaption" value="Menu"/>
+</field>
+<field id="link"><phrase id="fldcaption" value="Link"/>
+</field>
+<field id="parent"><phrase id="fldcaption" value="Parent"/>
+</field>
+<field id="no"><phrase id="fldcaption" value="No"/>
+</field>
+<field id="akses"><phrase id="fldcaption" value="Akses"/>
+<phrase id="fldtagvalue1" value="9"/>
+<phrase id="fldtagcaption1" value="Administrator"/>
+<phrase id="fldtagvalue2" value="0"/>
+<phrase id="fldtagcaption2" value="Anonim"/>
+<phrase id="fldtagvalue3" value="1"/>
+<phrase id="fldtagcaption3" value="Operator"/>
+</field>
+</table>
+<table id="menusub2"><phrase id="tblcaption" value="Menu Sub 2"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="_menu"><phrase id="fldcaption" value="Menu"/>
+</field>
+<field id="link"><phrase id="fldcaption" value="Link"/>
+</field>
+<field id="parent"><phrase id="fldcaption" value="Parent"/>
+</field>
+<field id="no"><phrase id="fldcaption" value="No"/>
+</field>
+<field id="akses"><phrase id="fldcaption" value="Akses"/>
+<phrase id="fldtagvalue1" value="9"/>
+<phrase id="fldtagcaption1" value="Administrator"/>
+<phrase id="fldtagvalue2" value="0"/>
+<phrase id="fldtagcaption2" value="Anonim"/>
+<phrase id="fldtagvalue3" value="1"/>
+<phrase id="fldtagcaption3" value="Operator"/>
+</field>
+</table>
+</project>
+</ew-language>

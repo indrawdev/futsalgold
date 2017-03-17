@@ -1,0 +1,232 @@
+body {
+	background-color: #FFFFFF;
+}
+
+
+.mgTable {
+	
+	
+	border: thin solid #CCCCCC;
+	background-color: #00FF00;   
+	
+}
+.mgTable th {
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #FFFF00;
+	padding: 5px;
+	
+
+}
+.mgPaging {
+	margin: auto;
+	position: relative;
+	background-color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+}
+.mgPaging a{
+	background-color: #E8E8E8;
+	float: left;
+	height: 16px;
+	width: 22px;
+	margin: 2px;
+	border: thin solid #CCCCCC;
+	font-family: Verdana;
+	font-size: 11px;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	color: #0000FF;
+}
+.mgTable td {
+	font-family: Verdana;
+	font-size: 11px;	
+	text-align: center;
+	
+	padding: 5px;
+}
+.mgAction {		
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 8px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 30px;
+}
+
+.mgAction a{
+	text-decoration: none;	
+}
+
+.mgAction img{
+	text-decoration: none;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+#loader {
+	background-image: url(loading2.gif);       
+	background-repeat: no-repeat;
+	height: 50px;
+	width: auto;
+	background-position: center center;
+}  
+
+.mgGanjil {
+	background-color: #99CCFF; /* baris ganjil berwarna hijau muda */
+	font-family: Verdana;
+	font-size: 10px;	
+}
+	
+.mgGenap { 
+    background-color: #CCFFFF; /* baris genap berwarna hijau tua */ 
+	font-family: Verdana;
+	font-size: 10px;	
+}
+   
+.mgHeading { 
+    background-color: red; /* baris genap berwarna hijau tua */ 
+}
+   
+.mgHeading h2 {
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+}  
+
+.mgFieldUsername{
+	background-color: #FFFFB7;
+	border: thin solid #999999;
+}
+.mgFieldPassword{
+	background-color: #FFFFB7;
+	border: thin solid #999999;
+
+}
+.mgFieldText{
+	background-color: #FFFFFF;
+	border: thin solid #999999;
+}
+.mgFieldCheck{
+	background-color: #FFFFFF;
+	border: thin solid #999999;
+}
+.mgButtonSubmit{
+	background-color: #EBEBEB;
+	border: thin solid #ADADAD;
+	height: 25px;
+	width: 80px;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	color: #FF6600;
+	letter-spacing: 2px;
+}
+
+.mgModule{	
+	width: 200px;	
+}
+.mgModuleHead{
+	height: 40px;
+	width: 200px;
+	background-color: #FFCC99;
+	
+	float: left;
+	position: relative;
+	
+	border: thin solid #CCCCCC;
+	
+	-moz-border-radius-topright: 13px;
+	border-top-right-radius: 13px;
+	
+	-moz-border-radius-topleft: 13px;
+	border-top-left-radius: 13px;
+		
+}
+.mgModuleHeadTitle{
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 2px;	
+	position: relative;
+	text-align: center;
+}
+.mgModuleBody{
+	height: auto;
+	width: 200px;
+	background-color: #FFFFCC;
+    
+	
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-left-radius: 15px;
+
+	
+	-moz-border-radius-bottomright: 15px;
+	border-bottom-right-radius: 15px;
+	text-align: justify;
+	float: left;
+	position: relative;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	
+}
+.mgModuleBody li{
+	list-style-type: decimal;
+	font-family: Verdana;
+	font-size: 11px;	
+}
+
+.mgCR {
+	font-family: Verdana;
+	font-size: 10px;
+   
+
+}
+input {
+    outline:none;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border:1px solid rgba(0,0,0, 0.2);
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 255, 1);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 255, 1); 
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 255, 1);
+    border:1px solid rgba(0,0,255, 0.8); 
+}
+.mgStatus {
+	background-color: #FFFFCC;
+	padding: 5px;	
+	border: thin solid #CCCCCC;
+}
+
+
+	   
